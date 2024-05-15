@@ -1,9 +1,9 @@
 import React from "react";
-
-function SearchResults() {
+import Tracklist from '../Tracklist/Tracklist'
+function SearchResults(props) {
     return(
         <div className="SearchResults">
-            <Tracklist />
+            <Tracklist userSearchResults={props.userSearchResults}/>
         </div>
     );
 }

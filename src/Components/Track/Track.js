@@ -1,6 +1,12 @@
 import React from "react";
-
-function Track() {
+function Track(props) {
+    function renderAction() {
+        if(props.isRemoval) {
+            return <button className="Track-action">-</button>
+        } else {
+            return <button className="Track-action">+</button>
+        }
+    }
     return(
         <div className='Track'>
             <div className='Track-information'>
@@ -11,3 +17,4 @@ function Track() {
         </div>
     )
 }
+export default Track
