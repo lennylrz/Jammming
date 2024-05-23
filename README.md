@@ -15,7 +15,7 @@ To get started with Jammming, follow these steps:
 
 1.  **Clone the repository** to your local machine:
     
-    `git clone https://github.com/your-username/jammming.git` 
+    `git clone https://github.com/lennylrz/jammming.git` 
     
 2.  **Navigate to the project directory**:
     
